@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5 Atv.1</title>
+</head>
+    <body>
+        <script>
+            const SALARIO_MINIMO = 1525;
+
+            let salarioUsuario = parseFloat(prompt("Digite o salário do usuário:"));
+
+            let quantosSalarios = salarioUsuario / SALARIO_MINIMO;
+
+            console.log(`Salário mínimo: R$ ${SALARIO_MINIMO.toFixed(2)}`);
+            console.log(`Salário do usuário: R$ ${salarioUsuario.toFixed(2)}`);
+            console.log(`O usuário ganha ${quantosSalarios.toFixed(2)} salário(s) mínimo(s)`);
+        </script>
+    </body>
+    <footer>
+        Criado por: José Miguel Correia Dias
+    </footer>
+</html>

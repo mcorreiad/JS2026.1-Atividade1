@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 7 Atv.1</title>
+</head>
+    <body>
+        <script>
+            let entrada1 = prompt("Digite o primeiro valor booleano (true/false):").toLowerCase();
+            let entrada2 = prompt("Digite o segundo valor booleano (true/false):").toLowerCase();
+
+            let bool1 = entrada1 === "true";
+            let bool2 = entrada2 === "true";
+
+            if (bool1 === true && bool2 === true) {
+                console.log("Ambos os valores são VERDADEIRO");
+            } else if (bool1 === false && bool2 === false) {
+                console.log("Ambos os valores são FALSO");
+            } else {
+                console.log(`Os valores são diferentes: ${bool1} e ${bool2}`);
+            }
+        </script>
+    </body>
+    <footer>
+        Criado por: José Miguel Correia Dias
+    </footer>
+</html>
